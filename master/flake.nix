@@ -11,7 +11,6 @@
   inputs.src-db_wrapper-master.ref   = "refs/heads/master";
   inputs.src-db_wrapper-master.owner = "sivchari";
   inputs.src-db_wrapper-master.repo  = "db_wrapper";
-  inputs.src-db_wrapper-master.dir   = "";
   inputs.src-db_wrapper-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
