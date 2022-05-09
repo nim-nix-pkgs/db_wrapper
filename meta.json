@@ -7,48 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/sivchari/db_wrapper",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/sivchari/db_wrapper/': SSL connection timeout",
     ""
   ],
-  "heads": [
-    {
-      "name": "db_wrapper",
-      "version": "0.1.0",
-      "author": "sivchari",
-      "desc": "this libraly able to use database/sql of Go",
-      "license": "MIT",
-      "skipDirs": [
-        "database-resource",
-        "db",
-        "docker",
-        "examples",
-        "img",
-        "tests",
-        "testresults"
-      ],
-      "skipFiles": [
-        "README.md",
-        "docker-compose.yml"
-      ],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 1.0.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "1.0.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "src",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
