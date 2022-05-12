@@ -7,8 +7,48 @@
   "license": "MIT",
   "web": "https://github.com/sivchari/db_wrapper",
   "refs": [
-    "fatal: unable to access 'https://github.com/sivchari/db_wrapper/': Failed to connect to github.com port 443 after 128849 ms: Network is unreachable",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "db_wrapper",
+      "version": "0.1.0",
+      "author": "sivchari",
+      "desc": "this libraly able to use database/sql of Go",
+      "license": "MIT",
+      "skipDirs": [
+        "database-resource",
+        "db",
+        "docker",
+        "examples",
+        "img",
+        "tests",
+        "testresults"
+      ],
+      "skipFiles": [
+        "README.md",
+        "docker-compose.yml"
+      ],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
